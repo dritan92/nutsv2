@@ -16,6 +16,16 @@
   border-radius: 4px;
   border-left: solid 1px #ffffff;
 }
+.Collapsible:hover {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.Collapsible:active {
+  background-color: rgba(255, 255, 255, 0.175);
+}
+
+
+
 button {
   -webkit-appearance: none;
           appearance: none;

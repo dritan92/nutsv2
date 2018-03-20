@@ -20,7 +20,6 @@ module.exports = {
             {
               "presets": ['react','babel-preset-env', 'stage-2']
             },
-
       },
 
       {
@@ -36,6 +35,12 @@ module.exports = {
       },
 
     ],
+  },
+    node: {
+     fs: 'empty',
+     dns: 'mock',
+     tls: 'empty',
+     net: 'empty'
   },
 
   performance: { hints: false }

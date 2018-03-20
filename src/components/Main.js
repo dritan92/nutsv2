@@ -4,17 +4,14 @@ import SubArticle from './SubArticle';
 import Slideshow from './Slideshow';
 
 
-
 class Main extends Component{
 
   render(){
     return(
       <div id="main">
 
-        <Slideshow id = "intro"
-                    title = "Home" />
-
-
+           <Slideshow id = "intro"
+                        title = "Home" />
            <Article
              id="about"
              title="About"
@@ -47,7 +44,7 @@ class Main extends Component{
             <SubArticle
                id="cisco-walnuts"
                title="Cisco Walnuts"
-               image= "./img/walnut1.jpg"
+               image= "/images/cisco.jpg"
                body = "Cisco is an extremely late leafing, laterally fruitful walnut. Due to its moderate yield, Cisco is mainly used as a pollenizer for Chandler and Howard walnuts. In growth habit, the tree is semi-upright and relatively small. The Cisco nut and kernel are similar to Franquette, but slightly larger. Kernel color can be variable."
 
                col0title = "Brief"
@@ -67,17 +64,12 @@ class Main extends Component{
              <Article
                id="review"
                title="Reviews and more.."
-               image = {"/images/home-walnut.jpg"}
-               body = "Why Australian Walnuts are better:"
-               description = " – Free from Pesticides
-                              –  Free from chemical treatments
-
-                              –  100%  sold in the year of harvest
-
-                              –  They taste better"/>
-
-
-          <article id="contact">
+               image = {"/images/review.jpg"}
+               body = "What Customers Say..."
+               description="" />
+          <Article id = "contact"
+                   title = "Contact"/>
+          <article id="contacts">
             <h2 className="major">Contact</h2>
             <form method="post" action="#">
               <div className="field half first">

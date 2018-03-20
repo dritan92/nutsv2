@@ -20,11 +20,10 @@ class Header extends Component {
           <nav>
              <ul>
                <li><a href="#intro">Home</a></li>
-                <Collapsible trigger= "Walnuts" className = "Collapsible">
+                <Collapsible trigger= "Walnuts" className = "Collapsible" >
                  <li><a href="#chandler-walnuts">Chandler Walnuts</a></li>
                  <li><a href="#cisco-walnuts">Cisco walnuts</a></li>
                </Collapsible>
-
                <li><a href="#about">About</a></li>
                <li><a href="#review">Reviews</a></li>
                <li><a href="#contact">Contact</a></li>
